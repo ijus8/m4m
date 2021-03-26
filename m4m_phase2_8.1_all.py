@@ -118,8 +118,7 @@ print (roundInfoAMT)
 
 roundInfoSM = [ ]
 for item in users:
-	for userRnd in data["M4M_Phase2_SM"]: 
-	
+	for userRnd in data["M4M_Phase2_SM"]: 	
 		if (item == userRnd):
 			letters = getOrderOfRounds(data["M4M_Phase2_SM"][userRnd])	
 			print(userRnd + ", " + ", ".join(letters))
